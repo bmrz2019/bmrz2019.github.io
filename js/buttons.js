@@ -99,7 +99,6 @@ export default class Buttons {
         this.copy_link = document.getElementById("copy-link");
         this.copy_embed = document.getElementById("copy-embed");
         this.merge_cancel = document.getElementById("merge-cancel");
-
         // DISPLAYS
         this.distance = document.getElementById("distance-val");
         this.elevation = document.getElementById("elevation-val");
@@ -142,7 +141,7 @@ export default class Buttons {
                 _this.openStreetMap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
                     maxZoom: 20,
-                    maxNativeZoom: 19,
+                    maxNativeZoom: 18,
                     useCache: true,
 	                crossOrigin: true,
                     cacheMaxAge: cacheAge
